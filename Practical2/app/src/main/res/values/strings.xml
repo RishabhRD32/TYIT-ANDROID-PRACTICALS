@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Practical 2</string>
+    <string name="welcome_text">Welcome to Android Resources!</string>
+    <string name="click_me">Click Me</string>
+</resources>

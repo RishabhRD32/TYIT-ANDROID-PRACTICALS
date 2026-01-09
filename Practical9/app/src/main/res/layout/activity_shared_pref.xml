@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#FFF3E0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practical 9A\nShared Preferences"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/etNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name to save"
+        android:background="@android:color/white"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save to Preferences"
+        android:backgroundTint="#FF9800"/>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Data"
+        android:backgroundTint="#F44336"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvSavedData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saved Name: None"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#5D4037"/>
+
+</LinearLayout>
